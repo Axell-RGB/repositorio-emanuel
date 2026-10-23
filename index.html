@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Axel Florentin</title>
+    <style>
+        /* --- ESTILOS GENERALES --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            padding-top: 70px;
+        }
+
+        /* --- MENÚ DE NAVEGACIÓN FIJO --- */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #1b263b;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #415a77;
+        }
+
+        /* --- SECCIONES Y CONTENIDO --- */
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1b263b;
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            color: #1b263b;
+            border-bottom: 2px solid #e0e1dd;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        /* --- IMAGEN DE PERFIL (Se quitó el border-radius: 50%) --- */
+        img {
+            display: block;
+            width: 200px; /* Ancho fijo para asegurar que tenga dimensiones */
+            height: auto;
+            border-radius: 8px; /* Bordes suavemente redondeados en lugar de un círculo */
+            margin: 20px auto;
+            border: 4px solid #1b263b;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- ENLACES GENERALES Y DE CONTACTO --- */
+        a {
+            color: #1d3557;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #457b9d;
+        }
+
+        /* --- LÍNEAS SEPARADORAS --- */
+        hr {
+            display: none;
+        }
+
+        /* --- DISEÑO RESPONSIVO (MÓVILES) --- */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            section {
+                margin: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Portafolio de Axel Florentin</h1>
+
+    <!-- MENÚ -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#sobremi">SOBRE MI</a></li>
+            <li><a href="#habilidades">HABILIDADES</a></li>
+            <li><a href="#trabajos">TRABAJOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <h2>INICIO</h2>
+        <p>
+            Mi nombre es Axel Florentin, tengo 16 años y estudio en el
+            Colegio Bautista de Encarnación, Paraguay, en el bachillerato
+            técnico en informática.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <h2>SOBRE MI</h2>
+        <p>
+            Este portafolio va enfocado especialmente para demostrar mis
+            habilidades, capacidades y conocimientos sobre la tecnología y informática.
+        </p>
+    </section>
+    
+  <img src=img/Labichota.webp
+    <hr>
+
+    <!-- SECCION HABILIDADES -->
+    <section id="habilidades">
+        <h2>HABILIDADES</h2>
+        <p>
+            Utilizo lenguaje de marcado frontend y un poco de lenguajes
+            lógicos como Python.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- SECCION TRABAJOS -->
+    <section id="trabajos">
+        <h2>TRABAJOS</h2>
+        <p>App de monitoreo deportivo</p>
+        <p>Expuesta en la feria James Maxwell.</p>
+    </section>
+
+    <hr>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h2>CONTACTO</h2>
+        <p>WhatsApp: 0995384716</p>
+        <p>Instagram: <a href="https://www.instagram.com/axel_florentin/" target="_blank">@axel_florentin</a></p>
+        <p>Correo electrónico: axcraftf@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/Axell-RGB-lang" target="_blank">Axel Florentin</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/axel-florentin-05bb8543b/?isSelfProfile=true" target="_blank">Axel Florentin</a></p>
+    </section>
+
+</body>
+</html>
